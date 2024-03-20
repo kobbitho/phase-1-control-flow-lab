@@ -15,7 +15,6 @@ function ternaryCheckCity(city){
 return (city ==='NYC')? 'Ok, sounds good.' :'No go.';
 
   console.log(ternaryCheckCity('NYC'));
-  
 
 }
 
@@ -36,5 +35,6 @@ function switchOnCharmFromTip(generosityLevel){
           response = 'Bye.';
   }
   return response;
-}
+
 console.log(switchOnCharmFromTip('generous'));
+}
